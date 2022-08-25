@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="fn1.js"></script>
+</head>
+
+<body> 
+    
+    <div class="center">
+        <header>
+            <h1>Mathmatic Calculator</h1>
+        </header>
+
+        <section>
+     
+        <h3>Quadratic Calculator</h3>
+        <input  id="a" placeholder="First Number">
+
+        <input id="b" placeholder="Second Number">
+
+        <input id="c" placeholder="Third Number">
+
+        <br>
+        
+     
+      <button class = "btn-1" onclick="fn1()" > Solve </button> 
+        
+    
+
+        <div id="result"></div>
+        <div id="result2">
+            
+        </div>
+        
+        
+        
+
+        
+
+
+        </section>
+        <hr>
+    
+        <section>
+        <h3>Biquadratic Calculator</h3>
+
+        <input id="a1" placeholder="First Number">
+
+        <input id="b1" placeholder="Second Number">
+
+        <input id="c1" placeholder="Third Number">
+
+        <br>
+
+        <button class = "btn-2" onclick="fn2()" > Solve </button>
+    
+
+        <div id="resultX1"></div>
+        <div id="resultX2"></div>
+        <div id="resultX3"></div>
+        <div id="resultX4"></div>
+        
+        </section>
+
+        <hr>
+    
+
+        <section>
+
+        <h3>Herons Formula</h3>
+
+        <input id="sideA" placeholder="Side A">
+
+        <input id="sideB" placeholder="Side B">
+
+        <input id="sideC" placeholder="Side C">
+
+        <br>
+        
+        
+
+        <!--<button class = "btn-3" onclick="fn3()" > Submit </button>-->
+        
+       
+        
+       <select id="select1">
+            
+            <option value="mm">mm</option>
+            <option value="cm">cm</option>
+            <option value="m">m</option>
+            <option value="km">km</option>
+       </select>
+       <button class = "btn-3" onclick="fn3()" > Solve </button>
+      
+       
+        <div class="output"></div>
+    
+  
+        <div id="area">
+        </div>
+        
+        
+        </section>
+        <hr>
+
+        <div class="heron">
+        <!--<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210109124445/heron.jpg" width="150">-->
+    </div>
+    </div>
+    </div>
+        
+    <footer>
+        <p class="center info">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a target="_blank" href="https://www.instagram.com/drenchew/" _blank>drenchew</a>
+            <br>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <a target="_blank" href="https://www.facebook.com/alek.drenchev">Алек Дре</a>
+            <br>
+            <ion-icon name="logo-github"></ion-icon>
+            <a target="_blank" href="https://github.com/drenchew/quadraticCalc.com">drenchew</a>
+            <br>
+            © all copyrights reserved
+            
+        </p>
+    </footer>
+    
+</body>
+
+</html>
